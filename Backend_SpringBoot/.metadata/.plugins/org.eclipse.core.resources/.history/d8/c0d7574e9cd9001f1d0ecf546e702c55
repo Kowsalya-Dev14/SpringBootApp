@@ -1,0 +1,9 @@
+spring.application.name=EmployeeApp
+spring.datasource.url=jdbc:sqlserver://KOWSALYA_RJ;databaseName=CarSaleDB;encrypt=true;trustServerCertificate=true;integratedSecurity=true;
+spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServerDialect
+
+logging.level.org.springframework=DEBUG
